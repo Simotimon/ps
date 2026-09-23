@@ -4,7 +4,7 @@ def solution(num, total):
     y = total - x
     
     if y % num == 0:
-        x = y // num
+        x = int(y / num)
         answer = list(range(x, x+num))
     
     return answer
